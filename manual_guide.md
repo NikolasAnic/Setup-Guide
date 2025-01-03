@@ -262,7 +262,6 @@ By understanding and using these types of branches, you can organize your develo
 
 This example demonstrates how to create a new branch, make changes, and merge it back into the `main` branch using your current repository. Let's say we have a repo called "Setup-Guide" and we want to add a Python script to it.
 
-
 **Step 1: Navigate to Your Repository**
 
 1. Open the terminal in VS Code or PowerShell.
@@ -284,6 +283,7 @@ git branch
 The branch you're on will be highlighted with an asterisk (*)
 
 **Step 3: Make Changes**
+
 1. Create a new Python script
 ```bash
 code hello_world.py
@@ -302,6 +302,7 @@ git commit -m "Add hello_world.py script"
 ```
 
 **Step 4: Push the Branch to GitHub**
+
 1. Push the `feature-hello-world` branch to GitHub
 ```bash
 git push origin feature-hello-world
@@ -333,7 +334,3 @@ git branch -d feature-hello-world
 ```bash
 git push origin --delete feature-hello-world
 ```
-
-
-
-
